@@ -9,6 +9,11 @@ import About from './pages/about';
 import Products from './pages/product';
 import ProductsList from './pages/products-list';
 import Layout from './components/Layout/layout';
+import AdminLayout from './components/layout/admin-layout';
+import AllProducts from './pages/all-products';
+import CreateProduct from './pages/create-product';
+import UpdateProduct from './pages/update-product';
+import DeleteProduct from './pages/delete-product';
 
 const router = createBrowserRouter([
   {
@@ -40,6 +45,28 @@ const router = createBrowserRouter([
             element: <SignleProduct />,
           },
         ],
+      },
+    ]
+  },
+  {
+    path: "/",
+    element: <AdminLayout />,
+    children: [
+      {
+        path: "/all-products",
+        element: <AllProducts />,
+      },
+      {
+        path: "/create-product",
+        element: <CreateProduct />,
+      },
+      {
+        path: "/update-product",
+        element: <UpdateProduct />,
+      },
+      {
+        path: "/delete-product",
+        element: <DeleteProduct />,
       },
     ]
   },

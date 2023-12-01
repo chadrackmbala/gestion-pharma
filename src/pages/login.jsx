@@ -5,6 +5,10 @@ export default function Login() {
     const handleClick = () => {
         navigate('/home');
     };
+    const adminNavigate = useNavigate();
+    const adminHandleClick = () => {
+        adminNavigate('/all-products');
+    };
 
     return (
         <>
@@ -12,6 +16,9 @@ export default function Login() {
 
             <button onClick={handleClick}>
                 Connexion
+            </button>
+            <button onClick={adminHandleClick}>
+                Admin Dashboard
             </button>
         </>
     );
