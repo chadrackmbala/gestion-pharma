@@ -7,13 +7,13 @@ export default function NavBar() {
                 <NavLink to="/home">Home</NavLink>
             </li>
             <li>
-                <NavLink to="/products">Product</NavLink>
+                <NavLink to="/products">Products</NavLink>
             </li>
             <li>
-                <NavLink to="/about">A Propos</NavLink>
+                <NavLink to="/about">About</NavLink>
             </li>
             <li>
-                <NavLink to="/">Deconnexion</NavLink>
+                <NavLink to="/">Disconnect</NavLink>
             </li>
         </ul>
     );

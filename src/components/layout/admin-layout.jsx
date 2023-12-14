@@ -5,7 +5,7 @@ export default function AdminLayout() {
     return(
         <>
             <nav>
-                <h1>Espace d'Administration</h1>
+                <h1>Administration Area</h1>
                 <DashboardNavbar />
             </nav>
             <main>

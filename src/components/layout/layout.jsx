@@ -5,7 +5,7 @@ export default function() {
     return(
         <>
             <nav>
-                <h1>Espace Clients</h1>
+                <h1>Clients Area</h1>
                 <NavBar />
             </nav>
             <main>

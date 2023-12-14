@@ -15,6 +15,9 @@ export default function DashboardNavbar() {
             <li>
                 <NavLink to="/delete-product">Delete Product</NavLink>
             </li>
+            <li>
+                <NavLink to="/">Disconet</NavLink>
+            </li>
         </ul>
     );
 };
